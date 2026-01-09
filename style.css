@@ -80,7 +80,8 @@ nav{
 
 
 #banner .banner-content {
- height: 674px;
+ height: 673px;
+ 
  margin: 0 , 0, auto;
  align-items: center;
  text-align: center;
@@ -206,6 +207,11 @@ nav{
 
 .brain-details .points{
   gap: 6px;
+}
+
+.check {
+  width: 600;
+  height: 600;
 }
 
 .tick {
