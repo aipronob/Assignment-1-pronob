@@ -12,7 +12,7 @@
 }
 
 nav{
-  width: 71%;
+  width: 82%;
   max-width: 1600px;
   margin: 16px 120px;
   display: flex;
@@ -113,7 +113,6 @@ nav{
 
 
 #note .note-container {
-  background-color: aquamarine;
   width: 85%;
   justify-content: center;
   margin: 0 auto;
@@ -136,23 +135,77 @@ nav{
 }
 
 #note .note-box {
-  color:red;
   display: flex;
   margin: 0 auto;
   justify-content:center;
   gap: 24px;
+  padding: 44px;
 }
 
 .box-item {
-  width: 300px;
+  width: 240px;
   border: 1px solid black;
+  box-shadow: 0 5px 50px 0px rgba(0, 0, 0, 0.534);
   gap: 24px;
+  padding: 24px;
+}
+
+ .note-box .box-item h3{
+  font-size: 24px;
+}
+
+ .note-box .box-item p{
+  color: grey;
+  font-size: 16px;
+
 }
 
 .circle {
   width: 50px;
   height: 50px;
-  border-radius: 50%;
+  border-radius: 5px;
   background-color: rgb(246, 86, 86);
   margin: 69px 131px;
+}
+
+#brain .brain-container {
+  max-width: 82%;
+  display: flex;
+  gap: 60px;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+.img {
+  height:600px;
+  width: 600px;
+}
+
+.brain-details {
+  height: 400px;
+  width: 400px;
+}
+
+.brain-details p{
+  margin-top: 102px;
+}
+
+.brain-details h2{
+  font-size: 38px;
+  margin: 16px 0;
+}
+
+.brain-details .info{
+  color: grey;
+  font-size: 16px;
+  
+}
+
+.brain-details .points{
+  gap: 6px;
+}
+
+.tick {
+  height: 30px;
+  width: 30px;
 }
