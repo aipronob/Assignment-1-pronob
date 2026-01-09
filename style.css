@@ -218,6 +218,7 @@ nav{
 }
 
 .access-container {
+  text-align: center;
   background-color:white;
   width: 82%;
   display: flex;
@@ -226,9 +227,26 @@ nav{
 
 }
 
+#access .access-info h2{
+  font-size: 40px;
+}
+
+.access-info .txt1{
+  color: grey;
+  font-size: 16px;
+  margin-bottom: 24px;
+  
+}
+
+.access-info .txt2{
+  color: grey;
+  font-size: 16px;
+  margin-top: 16px;
+  margin-bottom: 80px;
+  
+}
+
 .access-info{
   margin-top: 80px;
   margin-bottom: 16px;
-  line-height: ;
-
 }
