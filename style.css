@@ -260,13 +260,13 @@ nav{
   height: 348px;
 }
 
-.footer-item{
-  text-align: center;
+.footer-items{
   max-width: 82%;
-  align-items: center;
   display: flex;
+  align-items: center;
+  justify-content: space-between;
+padding-top: 120px;
   margin: 0 auto;
-
   justify-content: space-between;
 }
 
@@ -285,9 +285,14 @@ nav{
   margin-top: 10px;
 }
 
+.footer-container .hr{
+  width: 82%;
+}
+
 .endnote {
   color: white;
   justify-content: center;
   margin: 0 auto;
   text-align: center;
+  padding-top:30px ;
 }
