@@ -85,7 +85,7 @@ nav{
  margin: 0 , 0, auto;
  align-items: center;
  text-align: center;
- background-image: url(../assets/hero-bg.png);
+ background-image: url(./assets/hero-bg.png);
  background-size:auto;
 
 }
@@ -259,11 +259,15 @@ nav{
   margin-bottom: 16px;
 }
 
-
-.footer-container{
+.footer-tag {
+  background-color: rgb(6, 6, 49);
   margin-top: 120px;
-  background-color: rgb(20, 20, 64);
-  height: 348px;
+}
+.footer-container{
+  max-width: 82%;
+  margin: 0 auto;
+  height: 248px;
+  justify-content: center;
 }
 
 .footer-items{
@@ -291,8 +295,10 @@ padding-top: 120px;
   margin-top: 10px;
 }
 
-.footer-container .hr{
-  width: 82%;
+.hr{
+  margin: 0, auto;
+  justify-content: center;
+  align-items: center;
 }
 
 .endnote {
@@ -301,4 +307,5 @@ padding-top: 120px;
   margin: 0 auto;
   text-align: center;
   padding-top:30px ;
+
 }
