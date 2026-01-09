@@ -110,6 +110,15 @@ nav{
   margin: 16px 0 32px;
 }
 
+
+
+#note .note-container {
+  background-color: aquamarine;
+  width: 85%;
+  justify-content: center;
+  margin: 0 auto;
+}
+
 #note .note-headline h1{
   color: black;
   font-size: 48px;
@@ -123,6 +132,27 @@ nav{
   color:grey;
   font-size: 16px;
   text-align: center;
-  margin-top: 50px;
   margin-top: auto;
+}
+
+#note .note-box {
+  color:red;
+  display: flex;
+  margin: 0 auto;
+  justify-content:center;
+  gap: 24px;
+}
+
+.box-item {
+  width: 300px;
+  border: 1px solid black;
+  gap: 24px;
+}
+
+.circle {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: rgb(246, 86, 86);
+  margin: 69px 131px;
 }
