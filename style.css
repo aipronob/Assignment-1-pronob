@@ -2,13 +2,10 @@
   margin: 0;
 }
 
-.font-open-sans {
-  font-family: "Open Sans", sans-serif;
+.font-roboto {
+  font-family: "Roboto", sans-serif;
   font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
+
 }
 
 nav{
@@ -199,14 +196,23 @@ nav{
   margin: 16px 0;
 }
 
+.title{
+  color: #0fc95d;
+
+
+}
+
 .brain-details .info{
   color: grey;
   font-size: 16px;
   
 }
 
-.brain-details .points{
-  gap: 6px;
+.points {
+  margin-top: 20px;
+  align-items: center;
+  display: flex;
+  
 }
 
 .check {
@@ -214,9 +220,14 @@ nav{
   height: 600;
 }
 
+.tk {
+  display: flex;
+  gap: 6px;
+}
+
 .tick {
-  height: 30px;
-  width: 30px;
+  height:16px;
+  width: 16px;
 }
 
 #access {
